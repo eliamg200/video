@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: lightpink;
+}
+
+#MiguelCanicas{
+    width: 250px;
+    
+}
+
+#Boton{
+    width: 100px;
+    background-color: plum;
+    height: 20px;
+    border-style: groove;
+    border-color: rgb(106, 121, 207);
+    color: aliceblue;
+
+    
+
+}
+
+
+#Boton:hover{
+    background-color:rgb(106, 121, 207);
+    border-style: groove;
+    border-color:plum;
+    color: rgb(3, 3, 3);
+    transition: .5s;
+
+    
+}
+
+
+#Boton:not(:hover){
+    width: 100px;
+    background-color: plum;
+    height: 20px;
+    border-style: groove;
+    border-color: rgb(106, 121, 207);
+    color: aliceblue;
+    transition: .5s;
+
+    
+
+}
+
+
+#Titulo{
+    font-style: normal;
+    color: purple;
+    flood-opacity: 15%;
+    font-family:'Times New Roman';
+}
